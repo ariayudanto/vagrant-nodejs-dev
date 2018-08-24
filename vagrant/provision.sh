@@ -18,6 +18,8 @@ echo "Installed Node JS"
 # Install NPM packages
 npm install -g nodemon
 echo "Installed Nodemon"
+npm install -g express-generator
+echo "Installed express generator"
 
 # Install MySQL
 debconf-set-selections <<< "mysql-server mysql-server/root_password password $DBPASSWD"
